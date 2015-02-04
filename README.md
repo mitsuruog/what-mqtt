@@ -1,6 +1,7 @@
 # What MQTT? 
 
-MQTTってなんなの?
+MQTTって一体なんなのか？  
+ブラウザで実行しているアプリをMQTTクライアントとするために、`MQTT on websocket`したサンプルです。
 
 # demo
 
