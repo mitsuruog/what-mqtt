@@ -1,0 +1,31 @@
+.splash-container {
+  background: url('../images/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pure-menu .pure-menu-heading,
+.splash {
+  text-transform: none;
+}
+
+.btn-clear {
+  color: #444;
+  background-color: #E6E6E6;  
+}
+
+.ribbon .pure-form legend,
+.ribbon .pure-form label {
+  color: #f3f3f3;
+}
+
+.appendix li:before {
+  content: "\f08e";
+  font-family: FontAwesome;
+}
+
+.appendix li {
+  list-style-type: none;  
+}
