@@ -2,6 +2,7 @@
 
 module.exports = function (grunt) {
 
+  require('load-grunt-tasks')(grunt);
   require('time-grunt')(grunt);
 
   grunt.initConfig({
@@ -14,7 +15,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('deploy', [
-    
+    'gh-pages'
   ]);
 
 };
