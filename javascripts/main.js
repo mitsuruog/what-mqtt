@@ -13,6 +13,7 @@
   var inputTopicPub = document.querySelector('.input-topic-pub');
   var inputMessage = document.querySelector('.input-message');
   var inputTopicSub = document.querySelector('.input-topic-sub');
+  var inputBrokerWs = document.querySelector('.input-broker-ws');
 
   var messages = document.querySelector('.messages');
 
@@ -20,7 +21,7 @@
   
   btnConnect.addEventListener('click', function(e) {
     e.preventDefault();
-    client = mows.createClient('ws://test.mosquitto.org:8080/mqtt');
+    client = mows.createClient(inputBrokerWs.value);
     appendMessage('connection open :)');
     client.on('message', function (topic, message) {
       console.log(message);
