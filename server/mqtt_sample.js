@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var client = mqtt.connect('mqtt://test.mosquitto.org');
+var client = mqtt.connect('broker.hivemq.com');
 
 client.subscribe('mitsuruog');
 client.publish('mitsuruog', 'Hello mitsuruog mqtt :)');
