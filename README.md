@@ -20,10 +20,6 @@ npm run start
 
 Check it. <http://localhost:3000>
 
-# AsciiDoc
-
-image:https://travis-ci.org/karan6190/what-mqtt.svg?branch=master["Build Status", link="https://travis-ci.org/karan6190/what-mqtt"]
-
 # LICENSE
 
 MIT
