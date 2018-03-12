@@ -3,13 +3,13 @@
 # What MQTT? 
 MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport.
 
-# demo
+# Demo
 
 <http://mitsuruog.github.io/what-mqtt/>
 
 This project helps you to understand Machine to Machine communication over websocket
 
-# install
+# Install
 
 ```
 git clone https://github.com/karan6190/what-mqtt.git
