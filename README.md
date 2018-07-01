@@ -1,18 +1,18 @@
 [![Build Status](https://travis-ci.org/karan6190/what-mqtt.svg?branch=master)](https://travis-ci.org/karan6190/what-mqtt)
 
 # What MQTT? 
-MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport.
 
-# Demo
+MQTTって一体なんなのか？  
+ブラウザで実行しているアプリをMQTTクライアントとするために、`MQTT on websocket`したサンプルです。
+
+# demo
 
 <http://mitsuruog.github.io/what-mqtt/>
 
-This project helps you to understand Machine to Machine communication over websocket
-
-# Install
+# install
 
 ```
-git clone https://github.com/karan6190/what-mqtt.git
+git clone https://github.com/mitsuruog/what-mqtt.git
 cd what-mqtt
 npm install
 npm run start
