@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/karan6190/what-mqtt.svg?branch=master)](https://travis-ci.org/karan6190/what-mqtt)
+[![Build Status](https://travis-ci.org/karan6190/MQTT-WebSockets.svg?branch=master)](https://travis-ci.org/karan6190/MQTT-WebSockets)
 
 # What MQTT? 
 
